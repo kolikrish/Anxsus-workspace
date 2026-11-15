@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import styles from "./landing.module.css";
+import styles from "./landing.module.scss";
 import { SiteHeader } from "./SiteHeader";
 import { HeroHeadline } from "./HeroHeadline";
 import { Reveal } from "./Reveal";

@@ -7,7 +7,7 @@ import {
   type CSSProperties,
   type ReactNode,
 } from "react";
-import styles from "./landing.module.css";
+import styles from "./landing.module.scss";
 
 type RevealProps = {
   children: ReactNode;

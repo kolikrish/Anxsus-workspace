@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import styles from "./landing.module.css";
+import styles from "./landing.module.scss";
 import { NAV_LINKS, ROUTES } from "./content";
 
 /**

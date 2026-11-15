@@ -6,6 +6,16 @@
  * preceding comment so values can be re-verified against the capture.
  */
 
+$bp-desktop: 1280px;
+$bp-tablet: 1024px;
+$bp-phone: 640px;
+
+@mixin below($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
 /* ================================================================
  * SHELL  (capture: LayoutContent / Layout containers)
  * ================================================================ */
@@ -35,17 +45,17 @@
   --h: var(--h-xl, 0px);
   margin-top: calc(var(--h) - 1px);
 }
-@media (max-width: 1280px) {
+@include below($bp-desktop) {
   .spacer {
     --h: var(--h-lg, var(--h-xl, 0px));
   }
 }
-@media (max-width: 1024px) {
+@include below($bp-tablet) {
   .spacer {
     --h: var(--h-md, var(--h-lg, var(--h-xl, 0px)));
   }
 }
-@media (max-width: 640px) {
+@include below($bp-phone) {
   .spacer {
     --h: var(--h-sm, var(--h-md, var(--h-lg, var(--h-xl, 0px))));
   }
@@ -88,11 +98,12 @@
   opacity: 0;
   pointer-events: none;
   user-select: none;
-}
-.skipLink:focus {
-  opacity: 1;
-  pointer-events: all;
-  box-shadow: 0 0 0 2px var(--color-bg-primary), 0 0 0 4px var(--color-brand-bg);
+
+  &:focus {
+    opacity: 1;
+    pointer-events: all;
+    box-shadow: 0 0 0 2px var(--color-bg-primary), 0 0 0 4px var(--color-brand-bg);
+  }
 }
 
 /* ================================================================
@@ -501,9 +512,10 @@
   gap: 8px;
   margin-top: auto;
   padding-top: 32px;
-}
-.mobileMenuActions .btn {
-  width: 100%;
+
+  .btn {
+    width: 100%;
+  }
 }
 
 /* ================================================================

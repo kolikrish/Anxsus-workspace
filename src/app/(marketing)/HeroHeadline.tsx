@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import styles from "./landing.module.css";
+import styles from "./landing.module.scss";
 
 /**
  * The three headline phrasings. Each entry is the set of lines the phrase
