@@ -41,6 +41,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "puppeteer-core": "^25.8.0",
+    "sass": "^1.108.2",
     "tailwindcss": "^4.3.5",
     "typescript": "^5"
   }
