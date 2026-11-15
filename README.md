@@ -1,4 +1,4 @@
-# Anxsus — a product-development workspace
+# Anxsus - a product-development workspace
 
 A working, local-first product-development app (issues, projects, cycles,
 triage, inbox, agent, loops) plus its marketing landing page — built with
