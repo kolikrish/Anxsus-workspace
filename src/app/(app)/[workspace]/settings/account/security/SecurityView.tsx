@@ -16,7 +16,7 @@ import {
   readSession,
   type AuthSession,
 } from "@/lib/auth/session";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Account → Security & access (research-nav-auth.md §1):

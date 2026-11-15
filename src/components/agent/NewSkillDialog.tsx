@@ -15,7 +15,7 @@ import { Select } from "@/components/ui/Select";
 import { useStore } from "@/lib/data/DataProvider";
 import { normalizeSlash, useAgentSkills, type SkillScope } from "@/lib/agent/skills";
 import { showToast } from "@/lib/toast";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 export const NewSkillDialog = observer(function NewSkillDialog({
   open,

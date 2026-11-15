@@ -12,7 +12,7 @@
 
 import type { CSSProperties } from "react";
 import { ProjectShieldClipDef } from "@/components/projects/glyphs";
-import styles from "./icon.module.css";
+import styles from "./icon.module.scss";
 
 function Sheet({
   set,

@@ -76,8 +76,8 @@ import type {
   ProjectData,
   ProjectStatusCategory,
 } from "@/lib/data/types";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/projects/overview.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/projects/overview.module.scss";
 
 /* ================================================================
  * Labels + date formatting

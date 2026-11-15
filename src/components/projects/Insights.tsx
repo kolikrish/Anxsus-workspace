@@ -18,7 +18,7 @@ import { useStore } from "@/lib/data/DataProvider";
 import { CATEGORY_ORDER } from "@/lib/data/store";
 import type { StateCategory } from "@/lib/data/types";
 import { MilestoneDiamond } from "@/components/projects/glyphs";
-import css from "./insights.module.css";
+import css from "./insights.module.scss";
 
 /* ================================================================
  * Shared row

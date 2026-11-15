@@ -2,7 +2,7 @@
 
 import { ButtonHTMLAttributes, ReactNode } from "react";
 import clsx from "clsx";
-import styles from "./button.module.css";
+import styles from "./button.module.scss";
 
 /**
  * Button primitive — MASTER_PROMPT.md §7.1 (CAPTURED).

@@ -16,7 +16,7 @@ import {
 import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { fileToAvatarDataUrl, initialsFor } from "@/lib/auth/profile";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Account → Profile. The name/username/avatar fields are bound to

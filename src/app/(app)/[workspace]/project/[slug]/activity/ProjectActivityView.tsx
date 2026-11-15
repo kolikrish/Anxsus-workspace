@@ -29,8 +29,8 @@ import {
 import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import { showToast } from "@/lib/toast";
 import type { ActivityData, ProjectData } from "@/lib/data/types";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/projects/overview.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/projects/overview.module.scss";
 
 const DATE_FORMAT = new Intl.DateTimeFormat("en-US", {
   month: "short",

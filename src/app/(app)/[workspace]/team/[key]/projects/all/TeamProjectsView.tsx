@@ -31,8 +31,8 @@ import { NewProjectDialog } from "@/components/projects/NewProjectDialog";
 import { SaveProjectViewDialog } from "@/components/projects/SaveViewDialog";
 import { FavoriteStar } from "@/components/nav/Favorites";
 import { insightsKey, usePersistedFlag } from "@/lib/projects/localPrefs";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/projects/projectstable.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/projects/projectstable.module.scss";
 
 export const TeamProjectsView = observer(function TeamProjectsView({
   workspace,

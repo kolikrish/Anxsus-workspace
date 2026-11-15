@@ -28,7 +28,7 @@ import {
   PROJECT_ORDERING_OPTIONS,
   useProjectViewPreference,
 } from "@/lib/projects/viewPrefs";
-import css from "@/components/issues/displayoptions.module.css";
+import css from "@/components/issues/displayoptions.module.scss";
 
 const GROUPING_OPTIONS: SelectOption[] = PROJECT_GROUPING_OPTIONS.map(
   ({ value, label }) => ({ value, label }),

@@ -15,7 +15,7 @@
  * help window can render it.
  *
  * The trigger keeps its highlight while the menu is open (§6.2): the cloned
- * element carries `aria-expanded` (sidebar.module.css) and `data-menu-open`.
+ * element carries `aria-expanded` (sidebar.module.scss) and `data-menu-open`.
  */
 
 import {
@@ -42,7 +42,7 @@ import {
   workspaceDisplay,
   writeActiveWorkspace,
 } from "@/lib/workspace/active";
-import styles from "./workspacemenu.module.css";
+import styles from "./workspacemenu.module.scss";
 
 const SWITCH_KEYS = "o w";
 

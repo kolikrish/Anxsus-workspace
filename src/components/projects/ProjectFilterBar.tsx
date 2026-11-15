@@ -10,7 +10,7 @@
  *    operator (menu) · values (checklist) · ✕, plus "Clear all".
  *
  * Structure, markup and stylesheet are the issue filter bar's
- * (components/issues/FilterBar.tsx + filterbar.module.css) — one surface,
+ * (components/issues/FilterBar.tsx + filterbar.module.scss) — one surface,
  * one set of measurements; only the vocabulary comes from
  * lib/projects/filters.ts.
  */
@@ -44,7 +44,7 @@ import { PriorityIcon } from "@/components/icons/StatusIcon";
 import { HealthIcon, ProjectStatusIcon } from "@/components/projects/glyphs";
 import type { SyncStore } from "@/lib/data/store";
 import type { ProjectHealth, ProjectStatusCategory } from "@/lib/data/types";
-import css from "@/components/issues/filterbar.module.css";
+import css from "@/components/issues/filterbar.module.scss";
 
 /* ================================================================
  * Menu vocabulary

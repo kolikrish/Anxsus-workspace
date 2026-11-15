@@ -5,7 +5,7 @@ import { EditorContent, useEditor, type JSONContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Placeholder from "@tiptap/extension-placeholder";
 import { useDebouncedSave } from "./useDebouncedSave";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 const SAVE_DEBOUNCE_MS = 600;
 

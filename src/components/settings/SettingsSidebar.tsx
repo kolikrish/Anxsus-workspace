@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/Input";
 import { useStore } from "@/lib/data/DataProvider";
 import { SettingsGlyph } from "./glyphs";
 import { SETTINGS_NAV, backToAppHref, settingsHref } from "./nav";
-import styles from "./settings.module.css";
+import styles from "./settings.module.scss";
 
 /**
  * Settings sidebar (CAPTURED — capture-preferences.md §1/§3):

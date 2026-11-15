@@ -19,7 +19,7 @@ import { useRouter } from "next/navigation";
 import { readSession } from "@/lib/auth/session";
 import { demoRequested, provisionDemoWorkspace } from "@/lib/data/demo";
 import { readActiveWorkspace } from "@/lib/workspace/active";
-import styles from "./appentry.module.css";
+import styles from "./appentry.module.scss";
 
 export function AppEntryView() {
   const router = useRouter();

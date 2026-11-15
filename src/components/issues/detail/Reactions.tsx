@@ -20,7 +20,7 @@ import type { IssueData, ReactionData } from "@/lib/data/types";
 import { IconButton } from "@/components/ui/Button";
 import { Icon } from "@/components/icons/Icon";
 import { CURRENT_USER_ID } from "./constants";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 /** The twelve common reactions offered by the picker. */
 const EMOJI_CHOICES = [

@@ -4,7 +4,7 @@
  * Top-anchored centered dialog (15vh) instead of the vertically-centred
  * ui/Dialog geometry, so the enter/exit vocabulary is re-stated here rather
  * than inherited: fade + 2px drop + scale .98->1 over 150ms ease-out-quad,
- * exit fade 100ms (§6.6) — identical timing to dialog.module.css.
+ * exit fade 100ms (§6.6) — identical timing to dialog.module.scss.
  *
  * Row highlight follows THE HOVER IDIOM (§2.4): at rest the fade-out speed,
  * instant on highlight. Pointer hover and the ↑/↓ keyboard cursor are one

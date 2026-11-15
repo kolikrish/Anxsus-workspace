@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
-import styles from "./picker.module.css";
+import styles from "./picker.module.scss";
 
 /**
  * PickerMenu — the shared anchored contextual picker surface

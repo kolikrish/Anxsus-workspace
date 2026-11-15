@@ -35,7 +35,7 @@ import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
 import type { ProjectHealth, ProjectUpdateData } from "@/lib/data/types";
 import { HealthIcon } from "./glyphs";
-import css from "./dialogs.module.css";
+import css from "./dialogs.module.scss";
 
 /** The three health values an update can declare (capture §10.1 health cell). */
 const HEALTH_CHOICES: { health: ProjectHealth; label: string }[] = [

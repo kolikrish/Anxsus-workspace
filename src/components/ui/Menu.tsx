@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import { Icon } from "@/components/icons/Icon";
-import styles from "./menu.module.css";
+import styles from "./menu.module.scss";
 
 /**
  * Dropdown menu primitive (Radix DropdownMenu restyled to the captured

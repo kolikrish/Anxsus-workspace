@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./list.module.css";
+import styles from "./list.module.scss";
 
 /**
  * Grouped-list header row — MASTER_PROMPT.md §10.6 / §6.1.

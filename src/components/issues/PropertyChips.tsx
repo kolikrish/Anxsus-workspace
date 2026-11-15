@@ -43,7 +43,7 @@ import { PriorityIcon } from "@/components/icons/StatusIcon";
 import { MilestoneDiamond, projectIconFor } from "@/components/projects/glyphs";
 import { Tooltip } from "@/components/ui/Tooltip";
 import type { IssueData, LabelData, Priority } from "@/lib/data/types";
-import styles from "./propertychips.module.css";
+import styles from "./propertychips.module.scss";
 
 const PRIORITY_LABEL: Record<Priority, string> = {
   0: "No priority",

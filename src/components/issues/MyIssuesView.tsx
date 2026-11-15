@@ -67,9 +67,9 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Kbd } from "@/components/ui/Kbd";
 import { Icon } from "@/components/icons/Icon";
 import { StatusIcon } from "@/components/icons/StatusIcon";
-import shellStyles from "@/components/shell/shell.module.css";
-import boardStyles from "./board/board.module.css";
-import styles from "./myissues.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import boardStyles from "./board/board.module.scss";
+import styles from "./myissues.module.scss";
 
 /* ================================================================
  * Tab contract (shared with the route segment)

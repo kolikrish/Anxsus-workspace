@@ -132,7 +132,7 @@
 }
 
 /* Background painted on ::before with the 8px horizontal bleed inset
-   (same idiom as ui/list.module.css .row::before). */
+   (same idiom as ui/list.module.scss .row::before). */
 .row::before {
   content: "";
   position: absolute;

@@ -33,7 +33,7 @@ import {
   ProjectStatusPicker,
   ProjectTeamsPicker,
 } from "@/components/projects/pickers";
-import styles from "./detailsrail.module.css";
+import styles from "./detailsrail.module.scss";
 
 /* ---------------------------------------------------------------- labels */
 

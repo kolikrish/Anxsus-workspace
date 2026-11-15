@@ -203,7 +203,7 @@
 }
 
 /* Property chip row between the title and the footer (§15 card anatomy:
-   enabled display properties). Chip internals live in propertychips.module.css;
+   enabled display properties). Chip internals live in propertychips.module.scss;
    this class only places the row — it wraps with the shared 4px row gap. */
 .cardChips {
   margin-top: 8px;

@@ -3,14 +3,14 @@
 import * as React from "react";
 import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
 import { ItemContent, type MenuItem } from "./Menu";
-import styles from "./menu.module.css";
-import boundary from "./contextmenu.module.css";
+import styles from "./menu.module.scss";
+import boundary from "./contextmenu.module.scss";
 
 /**
  * Contextual menu boundary (Radix ContextMenu) — MASTER_PROMPT.md §6.3:
  * every interactive region is wrapped in a `data-contextual-menu`
  * boundary; right-click opens the entity's menu anchored at the pointer.
- * Item rendering and surface are identical to Menu (menu.module.css) —
+ * Item rendering and surface are identical to Menu (menu.module.scss) —
  * `ItemContent` is imported from Menu.tsx so a row never drifts between the
  * two surfaces.
  */

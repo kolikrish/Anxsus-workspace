@@ -18,7 +18,7 @@ import type { AttachmentData } from "@/lib/data/types";
 import { Composer, withAttachmentNote } from "./Composer";
 import { Transcript } from "./Transcript";
 import { GlyphClose } from "./glyphs";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 export const AgentPanel = observer(function AgentPanel({
   workspace,

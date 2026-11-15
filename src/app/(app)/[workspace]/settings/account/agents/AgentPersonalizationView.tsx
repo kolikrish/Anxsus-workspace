@@ -16,7 +16,7 @@ import {
   AGENT_PREFS_KEY,
   type AgentPersonalization,
 } from "@/lib/agent/personalization";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Account → Agent personalization. Personal instructions and reply

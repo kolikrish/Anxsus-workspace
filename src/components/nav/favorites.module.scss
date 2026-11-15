@@ -14,7 +14,7 @@
 /*
  * The sprite star is a filled glyph. "On" tints it yellow (the Icon `color`
  * prop sets --icon-color inline); "off" re-draws the same path as a muted
- * outline. The descendant selector out-specifies icon.module.css `.icon`
+ * outline. The descendant selector out-specifies icon.module.scss `.icon`
  * regardless of stylesheet import order.
  */
 .star .starOff {

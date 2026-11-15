@@ -16,7 +16,7 @@ import type {
   ProjectHealth,
   ProjectStatusCategory,
 } from "@/lib/data/types";
-import styles from "./overview.module.css";
+import styles from "./overview.module.scss";
 
 /**
  * Anchored option menus for project properties (projects list / overview

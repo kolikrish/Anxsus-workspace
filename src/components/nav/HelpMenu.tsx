@@ -10,7 +10,7 @@
  * — the same key the pre-paint boot script in src/app/layout.tsx reads, so the
  * choice survives a reload with no theme flash (§3).
  *
- * Shares the switcher surface (workspacemenu.module.css); opens upward
+ * Shares the switcher surface (workspacemenu.module.scss); opens upward
  * (side="top") from the floating help card.
  */
 
@@ -18,7 +18,7 @@ import { cloneElement, useState, type JSX, type ReactElement } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { Kbd } from "@/components/ui/Kbd";
 import { openShortcutsDialog } from "./ShortcutsDialog";
-import styles from "./workspacemenu.module.css";
+import styles from "./workspacemenu.module.scss";
 
 const CONFIG_KEY = "splashScreenConfig";
 

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
-import "./globals.css";
+import "./globals.scss";
 import { BootChoreography } from "@/components/shell/BootChoreography";
 import { Splash } from "@/components/shell/Splash";
 import { Sprites } from "@/components/icons/Sprites";

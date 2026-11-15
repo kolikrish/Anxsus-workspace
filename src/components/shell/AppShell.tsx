@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Sidebar } from "./Sidebar";
 import { AgentToolbar } from "./AgentToolbar";
 import { useSidebarDrawer } from "./sidebarDrawer";
-import styles from "./shell.module.css";
+import styles from "./shell.module.scss";
 
 /**
  * App frame (CAPTURED geometry): window-colored ground, 244px sidebar,

@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./checkbox.module.css";
+import styles from "./checkbox.module.scss";
 
 /**
  * Row-selector checkbox — MASTER_PROMPT §6.7 / §7.5 usage (CAPTURED).

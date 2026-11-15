@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
-import "./marketing.css";
+import "./marketing.scss";
 
 const poppins = localFont({
   src: "../../../public/font/Poppins-Light.ttf",
@@ -58,7 +58,7 @@ const THEME_SCRIPT = `(function () {
  * Marketing root layout.
  *
  * `(marketing)` and `(app)` are sibling ROOT layouts — there is no
- * `src/app/layout.tsx` — so nothing from the product shell (globals.css'
+ * `src/app/layout.tsx` — so nothing from the product shell (globals.scss'
  * fixed body, the boot splash, the icon sprite sheets, the toast viewport)
  * reaches this document.
  */

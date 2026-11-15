@@ -33,7 +33,7 @@ import type { MenuItem } from "@/components/ui/Menu";
 import { Dialog } from "@/components/ui/Dialog";
 import { Button } from "@/components/ui/Button";
 import { copyToClipboard, showToast } from "@/lib/toast";
-import styles from "./issuecontextmenu.module.css";
+import styles from "./issuecontextmenu.module.scss";
 
 /** "Research Work" → "research-work" (issue route: /issue/[id]/[slug]). */
 function slugifyTitle(title: string): string {

@@ -10,7 +10,7 @@ import {
 } from "@/components/settings/SettingsPage";
 import { useStore } from "@/lib/data/DataProvider";
 import type { ProjectStatusCategory } from "@/lib/data/types";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Projects → Statuses. The project status ladder every project in

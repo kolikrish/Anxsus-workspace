@@ -35,7 +35,7 @@ import type { AttachmentData } from "@/lib/data/types";
 import { GlyphArrowUp, GlyphStop } from "./glyphs";
 import { NewSkillDialog } from "./NewSkillDialog";
 import { SkillsMenu } from "./SkillsMenu";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 type MenuSource = "pill" | "slash";
 

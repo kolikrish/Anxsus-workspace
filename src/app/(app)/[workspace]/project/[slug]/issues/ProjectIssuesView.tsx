@@ -37,8 +37,8 @@ import { useViewPreference } from "@/lib/issues/viewPrefs";
 import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import { CATEGORY_ORDER } from "@/lib/data/store";
 import type { IssueData, Priority, StateCategory } from "@/lib/data/types";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/projects/overview.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/projects/overview.module.scss";
 
 const DATE_FORMAT = new Intl.DateTimeFormat("en-US", {
   month: "short",

@@ -42,7 +42,7 @@ import { useStore } from "@/lib/data/DataProvider";
 import { KeyboardProvider, useShortcut } from "@/lib/keyboard";
 import type { SyncStore } from "@/lib/data/store";
 import type { IssueData, Priority, UUID } from "@/lib/data/types";
-import styles from "./peek.module.css";
+import styles from "./peek.module.scss";
 import { Icon } from "@/components/icons/Icon";
 
 /* ================================================================
@@ -117,7 +117,7 @@ export function useActivePeekSource(get: PeekSourceGetter): void {
  * Pure helpers
  * ================================================================ */
 
-/** Exit animation length — keep in sync with peek.module.css. */
+/** Exit animation length — keep in sync with peek.module.scss. */
 const EXIT_MS = 100;
 
 /**

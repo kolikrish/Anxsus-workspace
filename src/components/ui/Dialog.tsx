@@ -2,7 +2,7 @@
 
 import * as RadixDialog from "@radix-ui/react-dialog";
 import type { CSSProperties, ReactNode } from "react";
-import styles from "./dialog.module.css";
+import styles from "./dialog.module.scss";
 
 /**
  * Modal dialog primitive (MASTER_PROMPT §7.6, §6.3/§6.6 motion vocabulary).

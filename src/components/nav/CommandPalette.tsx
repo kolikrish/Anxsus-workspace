@@ -31,7 +31,7 @@
  * Radix Dialog is used directly rather than the ui/Dialog primitive: the
  * palette is TOP-anchored (15vh), and the primitive's geometry/keyframes are
  * built around a vertically-centred panel. The surface re-states the same
- * enter/exit vocabulary in commandpalette.module.css.
+ * enter/exit vocabulary in commandpalette.module.scss.
  */
 
 import {
@@ -67,7 +67,7 @@ import type {
   ProjectData,
   ProjectStatusCategory,
 } from "@/lib/data/types";
-import styles from "./commandpalette.module.css";
+import styles from "./commandpalette.module.scss";
 
 /* ================================================================
  * Module-level open event (sidebar search row, header, empty states…)

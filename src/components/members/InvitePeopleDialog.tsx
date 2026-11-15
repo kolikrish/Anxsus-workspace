@@ -26,7 +26,7 @@ import { useSyncClient } from "@/lib/data/DataProvider";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
 import type { InviteData, WorkspaceRole } from "@/lib/data/types";
-import styles from "@/components/workspace/directory.module.css";
+import styles from "@/components/workspace/directory.module.scss";
 
 const OPEN_EVENT = "linear:invite-people:open";
 

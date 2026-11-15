@@ -21,7 +21,7 @@ import type { ProvisionedWorkspace } from "@/lib/workspace/workspaces";
 import { ProfileStep } from "./ProfileStep";
 import { WorkspaceStep } from "./WorkspaceStep";
 import { ONBOARDING_STEPS, STEP_LABEL, type OnboardingStep } from "./steps";
-import styles from "./onboarding.module.css";
+import styles from "./onboarding.module.scss";
 
 export function OnboardingView({ step }: { step: OnboardingStep }) {
   const router = useRouter();

@@ -3,7 +3,7 @@
 import * as React from "react";
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 import { Kbd } from "./Kbd";
-import styles from "./tooltip.module.css";
+import styles from "./tooltip.module.scss";
 
 /**
  * Tooltip primitive (Radix Tooltip) — MASTER_PROMPT.md §6.4 (CAPTURED).

@@ -24,7 +24,7 @@ import { showToast } from "@/lib/toast";
 import type { TeamData } from "@/lib/data/types";
 import { isTeamMember, setTeamMembership } from "@/lib/workspace/teams";
 import { openCreateTeamDialog } from "./CreateTeamDialog";
-import styles from "@/components/workspace/directory.module.css";
+import styles from "@/components/workspace/directory.module.scss";
 
 /** "1 issue" / "3 issues" — used in the row's accessible name. */
 function countLabel(count: number, noun: string): string {

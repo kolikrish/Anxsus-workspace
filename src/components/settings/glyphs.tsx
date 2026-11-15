@@ -5,7 +5,7 @@
  * so active/hover rows re-tint them without per-icon plumbing.
  */
 
-import styles from "@/components/icons/icon.module.css";
+import styles from "@/components/icons/icon.module.scss";
 
 export type GlyphName =
   | "back"

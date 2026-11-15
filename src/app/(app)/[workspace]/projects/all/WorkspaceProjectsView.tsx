@@ -31,8 +31,8 @@ import { FacetPanel } from "@/components/panels/FacetPanel";
 import { NewProjectDialog } from "@/components/projects/NewProjectDialog";
 import { SaveProjectViewDialog } from "@/components/projects/SaveViewDialog";
 import { insightsKey, usePersistedFlag } from "@/lib/projects/localPrefs";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/projects/projectstable.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/projects/projectstable.module.scss";
 
 /** Canonical view key (ViewPreference row id + selection store key). */
 const VIEW_KEY = "projects/all";

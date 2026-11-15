@@ -57,7 +57,7 @@ import { SettingsGlyph } from "@/components/settings/glyphs";
 import { PriorityIcon, StatusIcon } from "@/components/icons/StatusIcon";
 import { projectIconFor } from "@/components/projects/glyphs";
 import type { SyncStore } from "@/lib/data/store";
-import css from "./filterbar.module.css";
+import css from "./filterbar.module.scss";
 
 /* ================================================================
  * The captured "Add Filter…" list (video-timeline-2.md finding 7)

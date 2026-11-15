@@ -29,7 +29,7 @@ import { Icon } from "@/components/icons/Icon";
 import { StatusIcon } from "@/components/icons/StatusIcon";
 import { copyToClipboard, showToast } from "@/lib/toast";
 import { CURRENT_USER_ID } from "./constants";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 /* ================================================================
  * Coding tool preference

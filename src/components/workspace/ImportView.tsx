@@ -23,7 +23,7 @@ import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
 import type { IssueData, Priority } from "@/lib/data/types";
 import { ImportSheetMark } from "./glyphs";
-import styles from "./directory.module.css";
+import styles from "./directory.module.scss";
 
 type Source = "csv" | "jira" | "github";
 

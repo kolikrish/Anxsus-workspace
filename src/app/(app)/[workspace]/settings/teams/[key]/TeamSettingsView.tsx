@@ -15,7 +15,7 @@ import {
 } from "@/components/settings/SettingsPage";
 import { useStore } from "@/lib/data/DataProvider";
 import type { StateCategory } from "@/lib/data/types";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Your teams → {team}. Team identity plus the team's real

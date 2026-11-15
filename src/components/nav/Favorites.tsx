@@ -41,7 +41,7 @@ import { KeyboardProvider, useShortcut } from "@/lib/keyboard";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import type { SyncStore } from "@/lib/data/store";
 import type { FavoriteData } from "@/lib/data/types";
-import styles from "./favorites.module.css";
+import styles from "./favorites.module.scss";
 
 export type FavoriteEntityType = FavoriteData["entityType"];
 

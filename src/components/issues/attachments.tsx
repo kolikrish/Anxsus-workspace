@@ -17,7 +17,7 @@ import {
   type AttachmentData,
 } from "@/lib/data/types";
 import { Icon } from "@/components/icons/Icon";
-import styles from "./attachments.module.css";
+import styles from "./attachments.module.scss";
 
 /** "12 KB" / "1.4 MB" — the size shown on an attachment row. */
 export function formatBytes(size: number): string {

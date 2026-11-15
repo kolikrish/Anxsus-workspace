@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./toggle.module.css";
+import styles from "./toggle.module.scss";
 
 /**
  * Signature squish toggle — MASTER_PROMPT §7.3 (CAPTURED, exact).

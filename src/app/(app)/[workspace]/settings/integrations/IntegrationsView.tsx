@@ -36,8 +36,8 @@ import {
   MCP_SERVER_NAME,
   TOOL_DOCS,
 } from "@/lib/mcp/catalogue";
-import settings from "@/components/settings/settings.module.css";
-import s from "./integrations.module.css";
+import settings from "@/components/settings/settings.module.scss";
+import s from "./integrations.module.scss";
 
 /**
  * Settings → Features → Integrations (Phase 15 — FRONTEND ONLY, one seam).

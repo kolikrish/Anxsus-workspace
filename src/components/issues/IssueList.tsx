@@ -55,7 +55,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Kbd } from "@/components/ui/Kbd";
 import { Icon } from "@/components/icons/Icon";
 import { StatusIcon } from "@/components/icons/StatusIcon";
-import styles from "./issuelist.module.css";
+import styles from "./issuelist.module.scss";
 
 export type IssuesTab = "active" | "backlog" | "all";
 
@@ -289,7 +289,7 @@ const IssueRow = observer(function IssueRow({
           {/* Right-aligned property chips before the assignee/date cells
               (reference row anatomy). One line, max 3 pills + "+N" overflow;
               the inner chips hide under ~900px container width (container
-              query in issuelist.module.css) so the cell collapses without
+              query in issuelist.module.scss) so the cell collapses without
               shifting the grid columns. */}
           <span className={styles.cellChips}>
             <IssuePropertyChips

@@ -18,7 +18,7 @@ import { Menu, type MenuItem } from "@/components/ui/Menu";
 import { LoopKnot } from "@/components/agent/glyphs";
 import { describeTrigger, useAgentLoops, type LoopData } from "@/lib/agent/loops";
 import { showToast } from "@/lib/toast";
-import styles from "./loops.module.css";
+import styles from "./loops.module.scss";
 
 /** "just now" → "5m ago" → "2h ago" → "Aug 24" (§10.3 relative-time contract). */
 function lastRunLabel(iso: string | undefined, now: number): string {

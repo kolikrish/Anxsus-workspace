@@ -29,7 +29,7 @@ import {
 import { useSyncClient } from "@/lib/data/DataProvider";
 import { loadDemoDataInto, resetWorkspace } from "@/lib/data/demo";
 import { showToast } from "@/lib/toast";
-import styles from "@/components/workspace/directory.module.css";
+import styles from "@/components/workspace/directory.module.scss";
 
 type Pending = "demo" | "reset" | null;
 

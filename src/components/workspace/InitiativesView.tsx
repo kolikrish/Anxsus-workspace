@@ -26,7 +26,7 @@ import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
 import type { InitiativeData, InitiativeStatus } from "@/lib/data/types";
 import { InitiativeRollupMark } from "./glyphs";
-import styles from "./directory.module.css";
+import styles from "./directory.module.scss";
 
 const STATUS_OPTIONS: { value: InitiativeStatus; label: string }[] = [
   { value: "planned", label: "Planned" },

@@ -24,7 +24,7 @@ import type { AttachmentData } from "@/lib/data/types";
 import { AgentWatermark, GlyphClose, GlyphResearch } from "./glyphs";
 import { Composer, withAttachmentNote } from "./Composer";
 import { Transcript } from "./Transcript";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 /* ---- examples row (exact titles/subtitles from the timeline capture) ---- */
 

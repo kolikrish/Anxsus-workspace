@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
-import styles from "./popover.module.css";
+import styles from "./popover.module.scss";
 
 /**
  * Popover primitive (Radix Popover) — same captured surface as Menu

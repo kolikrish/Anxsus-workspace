@@ -20,7 +20,7 @@ import { useEffect, useState, type JSX } from "react";
 import { Dialog } from "@/components/ui/Dialog";
 import { Kbd } from "@/components/ui/Kbd";
 import { formatKeys, getRegisteredShortcuts, useShortcut } from "@/lib/keyboard";
-import styles from "./shortcuts.module.css";
+import styles from "./shortcuts.module.scss";
 
 /* ================================================================
  * Module-level open event (Help menu → this host)

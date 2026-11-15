@@ -32,7 +32,7 @@ import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Tooltip, TooltipProvider } from "@/components/ui/Tooltip";
 import { PickerMenu } from "@/components/issues/pickers/PickerMenu";
-import styles from "./triage.module.css";
+import styles from "./triage.module.scss";
 
 /* ================================================================
  * Pure helpers

@@ -14,7 +14,7 @@ import {
   writeHiddenItems,
   type SidebarItemKey,
 } from "./sidebarConfig";
-import styles from "./settings.module.css";
+import styles from "./settings.module.scss";
 
 /**
  * "Customize" (App sidebar row, capture-preferences.md §6). Both controls are

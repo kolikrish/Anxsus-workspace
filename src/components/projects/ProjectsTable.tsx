@@ -71,7 +71,7 @@ import { Menu, type MenuItem } from "@/components/ui/Menu";
 import { PriorityIcon } from "@/components/icons/StatusIcon";
 import { Icon } from "@/components/icons/Icon";
 import { Avatar } from "@/components/ui/Avatar";
-import styles from "./projectstable.module.css";
+import styles from "./projectstable.module.scss";
 
 /* ================================================================
  * Pure helpers

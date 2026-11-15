@@ -5,7 +5,7 @@ import { Icon } from "@/components/icons/Icon";
 import { useSyncClient } from "@/lib/data/DataProvider";
 import type { ActivityData, CommentData, IssueData } from "@/lib/data/types";
 import { CURRENT_USER_ID } from "./constants";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 /**
  * Comment composer (capture §6): elevated card — radius 8, hairline border,

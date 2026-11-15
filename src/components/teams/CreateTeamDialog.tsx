@@ -33,7 +33,7 @@ import {
   deriveTeamKey,
   validateTeamKey,
 } from "@/lib/workspace/teams";
-import styles from "@/components/workspace/directory.module.css";
+import styles from "@/components/workspace/directory.module.scss";
 
 const OPEN_EVENT = "linear:create-team:open";
 

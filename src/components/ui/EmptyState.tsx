@@ -1,4 +1,4 @@
-import styles from "./emptystate.module.css";
+import styles from "./emptystate.module.scss";
 
 /**
  * Centered empty-state column — MASTER_PROMPT.md §10.5/§10.6.

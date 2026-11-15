@@ -30,7 +30,7 @@ import {
   provisionWorkspace,
   type ProvisionedWorkspace,
 } from "@/lib/workspace/workspaces";
-import styles from "./onboarding.module.css";
+import styles from "./onboarding.module.scss";
 
 export function WorkspaceStep({
   onCreated,

@@ -1,4 +1,4 @@
-import styles from "./kbd.module.css";
+import styles from "./kbd.module.scss";
 
 /**
  * Row of keyboard keycap chips — MASTER_PROMPT.md §6.4 (CAPTURED).

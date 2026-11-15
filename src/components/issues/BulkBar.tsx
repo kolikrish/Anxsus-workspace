@@ -5,7 +5,7 @@ import { observer } from "mobx-react-lite";
 import { IconButton } from "@/components/ui/Button";
 import { Kbd } from "@/components/ui/Kbd";
 import type { SelectionStore } from "@/lib/issues/selection";
-import styles from "./bulkbar.module.css";
+import styles from "./bulkbar.module.scss";
 
 /** 14px cross glyph (fill-based per §8) for the clear-selection button. */
 function CrossGlyph() {

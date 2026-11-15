@@ -20,7 +20,7 @@ import type { IssueData, WorkflowStateData } from "@/lib/data/types";
 import type { SelectionStore } from "@/lib/issues/selection";
 import type { BoardDndData } from "./Board";
 import { BoardCard } from "./Card";
-import styles from "./board.module.css";
+import styles from "./board.module.scss";
 
 export const BoardColumn = observer(function BoardColumn({
   teamId,

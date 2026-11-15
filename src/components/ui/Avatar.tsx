@@ -1,5 +1,5 @@
 import { CSSProperties } from "react";
-import styles from "./avatar.module.css";
+import styles from "./avatar.module.scss";
 
 type AvatarSize = 16 | 18 | 22 | 24 | 28 | 32 | 44;
 

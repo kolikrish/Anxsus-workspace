@@ -13,7 +13,7 @@
  *
  * Radix Popover is used in CONTROLLED mode (the existing ui/Popover
  * primitive owns its state and cannot be opened from the shortcut
- * registry); the surface contract matches ui/popover.module.css at
+ * registry); the surface contract matches ui/popover.module.scss at
  * 320px / 8px padding.
  */
 
@@ -27,7 +27,7 @@ import { Icon } from "@/components/icons/Icon";
 import { useShortcut } from "@/lib/keyboard";
 import { showToast } from "@/lib/toast";
 import { useViewPreference } from "@/lib/issues/viewPrefs";
-import css from "./displayoptions.module.css";
+import css from "./displayoptions.module.scss";
 
 /* ================================================================
  * Option vocabularies (§11.1)

@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import clsx from "clsx";
-import styles from "./input.module.css";
+import styles from "./input.module.scss";
 
 /**
  * Text input — MASTER_PROMPT §7.2 (CAPTURED).

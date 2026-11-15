@@ -23,7 +23,7 @@ import { PersonGlyph, UploadGlyph } from "@/app/(app)/login/glyphs";
 import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { fileToAvatarDataUrl, initialsFor } from "@/lib/auth/profile";
-import styles from "./onboarding.module.css";
+import styles from "./onboarding.module.scss";
 
 export const ProfileStep = observer(function ProfileStep({
   step,

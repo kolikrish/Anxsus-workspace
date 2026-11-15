@@ -17,7 +17,7 @@ import type { AgentAction } from "@/lib/agent/engine";
 import type { AgentChat, AgentMessage } from "@/lib/agent/chats";
 import type { SyncStore } from "@/lib/data/store";
 import { GlyphEdit } from "./glyphs";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 /* ================================================================
  * Minimal rich text (the agent's replies are markdown-flavoured plain text)

@@ -20,7 +20,7 @@ import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Header } from "@/components/shell/Header";
 import { ReleaseStackMark } from "./glyphs";
-import styles from "./directory.module.css";
+import styles from "./directory.module.scss";
 
 export function ReleasesView(): JSX.Element {
   return (

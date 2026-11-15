@@ -42,8 +42,8 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Menu, type MenuItem } from "@/components/ui/Menu";
 import { Icon } from "@/components/icons/Icon";
 import type { ResourceLink, TeamData } from "@/lib/data/types";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "./teamhome.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "./teamhome.module.scss";
 
 /* ================================================================
  * Tabs (client-side only — Overview is the route)

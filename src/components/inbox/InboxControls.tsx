@@ -28,8 +28,8 @@ import { Tooltip } from "@/components/ui/Tooltip";
 import { Icon } from "@/components/icons/Icon";
 import { useViewPreference } from "@/lib/issues/viewPrefs";
 import type { NotificationData } from "@/lib/data/types";
-import displayCss from "@/components/issues/displayoptions.module.css";
-import styles from "./inbox.module.css";
+import displayCss from "@/components/issues/displayoptions.module.scss";
+import styles from "./inbox.module.scss";
 
 /** Persisted display preferences live under this view key. */
 export const INBOX_VIEW_KEY = "inbox";

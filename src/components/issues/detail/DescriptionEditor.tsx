@@ -9,7 +9,7 @@ import TaskItem from "@tiptap/extension-task-item";
 import Placeholder from "@tiptap/extension-placeholder";
 import { editorDocToMarkdownish, markdownishToHtml } from "./markdown";
 import { useDebouncedSave } from "./useDebouncedSave";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 const SAVE_DEBOUNCE_MS = 800;
 

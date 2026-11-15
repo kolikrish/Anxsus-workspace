@@ -12,7 +12,7 @@ import { StatusPicker } from "@/components/issues/pickers/StatusPicker";
 import { PriorityPicker } from "@/components/issues/pickers/PriorityPicker";
 import { AssigneePicker } from "@/components/issues/pickers/AssigneePicker";
 import { LabelPicker } from "@/components/issues/pickers/LabelPicker";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 const PRIORITY_LABEL: Record<Priority, string> = {
   0: "No priority",

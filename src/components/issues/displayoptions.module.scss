@@ -194,7 +194,7 @@
 }
 
 /* accent-text ghost button; !important holds the accent through the
-   ghost hover/active color swap in button.module.css */
+   ghost hover/active color swap in button.module.scss */
 .accentButton {
   color: var(--color-accent) !important;
 }

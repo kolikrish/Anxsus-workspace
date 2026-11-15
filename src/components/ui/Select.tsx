@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as SelectPrimitive from "@radix-ui/react-select";
-import styles from "./select.module.css";
+import styles from "./select.module.scss";
 
 /**
  * Select primitive (Radix Select restyled to the captured Linear

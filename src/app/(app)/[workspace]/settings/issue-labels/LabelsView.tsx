@@ -14,7 +14,7 @@ import {
 } from "@/components/settings/SettingsPage";
 import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import type { LabelData, TeamData } from "@/lib/data/types";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Issues → Labels. Real CRUD against the `Label` pool through the

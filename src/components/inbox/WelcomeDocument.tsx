@@ -20,7 +20,7 @@ import { Button } from "@/components/ui/Button";
 import { Dialog } from "@/components/ui/Dialog";
 import { Tooltip } from "@/components/ui/Tooltip";
 import { copyToClipboard } from "@/lib/toast";
-import styles from "./inbox.module.css";
+import styles from "./inbox.module.scss";
 
 /* ================================================================
  * Neutral workspace mark (Splash idiom — never a third-party logo)

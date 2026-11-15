@@ -18,8 +18,8 @@ import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { workspaceDisplay } from "@/lib/workspace/active";
 import { isTriageSnoozed } from "@/lib/triage/snooze";
 import { isTeamMember } from "@/lib/workspace/teams";
-import styles from "./sidebar.module.css";
-import shell from "./shell.module.css";
+import styles from "./sidebar.module.scss";
+import shell from "./shell.module.scss";
 
 const MIN_W = 200;
 const MAX_W = 330;

@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 import clsx from "clsx";
-import styles from "./icon.module.css";
+import styles from "./icon.module.scss";
 
 /**
  * Sprite icon with the captured color cascade:

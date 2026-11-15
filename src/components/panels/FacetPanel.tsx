@@ -53,7 +53,7 @@ import { Avatar } from "@/components/ui/Avatar";
 import { Icon } from "@/components/icons/Icon";
 import { PriorityIcon } from "@/components/icons/StatusIcon";
 import { HealthIcon, projectIconFor } from "@/components/projects/glyphs";
-import css from "./facetpanel.module.css";
+import css from "./facetpanel.module.scss";
 
 /* ================================================================
  * Scope contract

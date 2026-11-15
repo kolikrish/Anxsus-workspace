@@ -29,8 +29,8 @@ import { DisplayOptionsButton } from "@/components/issues/DisplayOptions";
 import { Board } from "@/components/issues/board/Board";
 import { FacetPanel } from "@/components/panels/FacetPanel";
 import { insightsKey, usePersistedFlag } from "@/lib/projects/localPrefs";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "@/components/issues/issuelist.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "@/components/issues/issuelist.module.scss";
 
 const TABS: { id: IssuesTab; label: string }[] = [
   { id: "active", label: "Active" },

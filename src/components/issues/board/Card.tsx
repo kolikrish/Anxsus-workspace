@@ -30,7 +30,7 @@ import {
 import type { SelectionStore } from "@/lib/issues/selection";
 import type { IssueData, UserData, WorkflowStateData } from "@/lib/data/types";
 import type { BoardDndData } from "./Board";
-import styles from "./board.module.css";
+import styles from "./board.module.scss";
 
 /** "Research Work" → "research-work" (issue route: /issue/[id]/[slug]). */
 function slugify(title: string): string {

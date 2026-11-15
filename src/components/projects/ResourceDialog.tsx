@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { showToast } from "@/lib/toast";
 import type { ResourceLink } from "@/lib/data/types";
-import css from "./dialogs.module.css";
+import css from "./dialogs.module.scss";
 
 function newId(): string {
   if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {

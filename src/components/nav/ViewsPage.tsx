@@ -42,8 +42,8 @@ import { Kbd } from "@/components/ui/Kbd";
 import { ListRow } from "@/components/ui/ListRow";
 import { Select } from "@/components/ui/Select";
 import { Icon } from "@/components/icons/Icon";
-import shellStyles from "@/components/shell/shell.module.css";
-import css from "./views.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import css from "./views.module.scss";
 
 /* ================================================================
  * Shape

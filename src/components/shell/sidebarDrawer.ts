@@ -15,8 +15,8 @@
  * without threading props through every page.
  *
  * `NARROW_QUERY` is the single source of truth for the breakpoint and is
- * mirrored by the `@media (max-width: 1023px)` blocks in shell.module.css and
- * sidebar.module.css — change it in all three or none.
+ * mirrored by the `@media (max-width: 1023px)` blocks in shell.module.scss and
+ * sidebar.module.scss — change it in all three or none.
  */
 
 import { useCallback, useEffect, useState } from "react";

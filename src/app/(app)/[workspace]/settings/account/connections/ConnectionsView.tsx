@@ -13,7 +13,7 @@ import {
 import { useStore } from "@/lib/data/DataProvider";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { readSession, type LoginMethod } from "@/lib/auth/session";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Account → Connected accounts. The method that produced the

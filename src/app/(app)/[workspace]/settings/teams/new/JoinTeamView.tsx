@@ -12,7 +12,7 @@ import {
   SettingsSections,
 } from "@/components/settings/SettingsPage";
 import { useStore } from "@/lib/data/DataProvider";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Settings → Your teams → Join or create a team. The membership list is real

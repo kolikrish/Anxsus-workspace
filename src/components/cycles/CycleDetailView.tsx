@@ -30,8 +30,8 @@ import { GroupHeader } from "@/components/ui/GroupHeader";
 import { ListRow } from "@/components/ui/ListRow";
 import { CycleGraph } from "@/components/cycles/CycleGraph";
 import { showToast } from "@/lib/toast";
-import listStyles from "@/components/issues/issuelist.module.css";
-import styles from "./cycles.module.css";
+import listStyles from "@/components/issues/issuelist.module.scss";
+import styles from "./cycles.module.scss";
 
 const PHASE_LABEL: Record<CyclePhase, string> = {
   upcoming: "Upcoming",

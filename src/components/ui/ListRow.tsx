@@ -2,13 +2,13 @@
 
 import Link from "next/link";
 import { CSSProperties } from "react";
-import styles from "./list.module.css";
+import styles from "./list.module.scss";
 
 /**
  * List row primitive (ListCell) — MASTER_PROMPT.md §7.5.
  * Renders a real <Link> when `href` is given (URL preview on hover,
  * middle-click works); otherwise a <div>. Background/ring are painted on
- * ::before with an 8px horizontal bleed inset (see list.module.css).
+ * ::before with an 8px horizontal bleed inset (see list.module.scss).
  *
  * Highlight vs Selection (§6.7): `keyboardActive` is the keyboard cursor
  * (inset ring); `selected` is explicit selection (applied background).

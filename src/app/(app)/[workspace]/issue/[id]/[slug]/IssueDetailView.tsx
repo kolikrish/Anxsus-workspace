@@ -26,7 +26,7 @@ import { Reactions } from "@/components/issues/detail/Reactions";
 import { SubIssues } from "@/components/issues/detail/SubIssues";
 import { CommentComposer } from "@/components/issues/detail/CommentComposer";
 import type { AttachmentData } from "@/lib/data/types";
-import styles from "@/components/issues/detail/detail.module.css";
+import styles from "@/components/issues/detail/detail.module.scss";
 
 /** Boot skeleton — grid shape held while the local store hydrates. */
 function DetailSkeleton() {

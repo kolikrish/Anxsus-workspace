@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-import styles from "./shell.module.css";
+import styles from "./shell.module.scss";
 
 /**
  * Phase-1 placeholder page body: real header band, empty content scroller.

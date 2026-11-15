@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { Button } from "@/components/ui/Button";
 import { SettingsGlyph, type GlyphName } from "./glyphs";
-import styles from "./settings.module.css";
+import styles from "./settings.module.scss";
 
 /**
  * Shared settings page furniture — CAPTURED geometry

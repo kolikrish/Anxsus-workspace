@@ -31,7 +31,7 @@ import {
 } from "@/components/nav/ViewsPage";
 import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
-import css from "./dialogs.module.css";
+import css from "./dialogs.module.scss";
 
 export function SaveViewDialog({
   open,

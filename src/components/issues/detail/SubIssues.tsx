@@ -22,7 +22,7 @@ import { StatusPicker } from "@/components/issues/pickers/StatusPicker";
 import { Avatar } from "@/components/ui/Avatar";
 import { Icon } from "@/components/icons/Icon";
 import { StatusIcon } from "@/components/icons/StatusIcon";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 /** "Research Work" → "research-work" (issue route: /issue/[id]/[slug]). */
 function slugifyTitle(title: string): string {

@@ -13,7 +13,7 @@ import {
   ProviderGlyph,
   ShieldGlyph,
 } from "./glyphs";
-import styles from "./login.module.css";
+import styles from "./login.module.scss";
 
 /**
  * Login (MASTER_PROMPT §17.1 + research-nav-auth.md §1 — DOCUMENTED methods).

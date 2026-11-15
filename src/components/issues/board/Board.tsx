@@ -47,7 +47,7 @@ import type { UUID } from "@/lib/data/types";
 import { BoardColumn } from "./Column";
 import { BoardCardPreview } from "./Card";
 import { HiddenColumns } from "./HiddenColumns";
-import styles from "./board.module.css";
+import styles from "./board.module.scss";
 
 /**
  * Drag/drop payloads carried by every board draggable & droppable so

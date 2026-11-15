@@ -9,7 +9,7 @@ import { useStore, useSyncClient } from "@/lib/data/DataProvider";
 import { useShortcut } from "@/lib/keyboard";
 import type { ActivityData, IssueData } from "@/lib/data/types";
 import { CURRENT_USER_ID } from "./constants";
-import styles from "./detail.module.css";
+import styles from "./detail.module.scss";
 
 /** "just now" → "5m" → "2h" → "Aug 24" (per §10.3 relative-time contract). */
 export function formatRelativeTime(iso: string, now: number = Date.now()): string {

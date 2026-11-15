@@ -21,7 +21,7 @@ import {
   cycleStats,
   type CycleGraphData,
 } from "@/lib/cycles/cycles";
-import styles from "./cycles.module.css";
+import styles from "./cycles.module.scss";
 
 /** Internal drawing space (viewBox units — stretched to the container). */
 const PLOT_W = 100;

@@ -15,7 +15,7 @@ import { AgentPanel } from "@/components/agent/AgentPanel";
 import { Menu, type MenuItem } from "@/components/ui/Menu";
 import { useAgentChats } from "@/lib/agent/chats";
 import { useShortcut } from "@/lib/keyboard";
-import styles from "./shell.module.css";
+import styles from "./shell.module.scss";
 
 export const AgentToolbar = observer(function AgentToolbar({
   workspace,

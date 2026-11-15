@@ -12,7 +12,7 @@
 import { useEffect, useRef, type JSX } from "react";
 import { Icon } from "@/components/icons/Icon";
 import type { AgentSkill } from "@/lib/agent/skills";
-import styles from "./agent.module.css";
+import styles from "./agent.module.scss";
 
 export function SkillsMenu({
   skills,

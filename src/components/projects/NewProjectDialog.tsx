@@ -33,7 +33,7 @@ import type {
   ProjectStatusCategory,
 } from "@/lib/data/types";
 import { PRESET_COLORS, PRESET_EMOJIS } from "./pickers";
-import css from "./dialogs.module.css";
+import css from "./dialogs.module.scss";
 
 const STATUS_OPTIONS: SelectOption[] = [
   { value: "backlog", label: "Backlog" },

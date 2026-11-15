@@ -35,7 +35,7 @@ import {
   ROLE_OPTIONS,
   openInviteDialog,
 } from "./InvitePeopleDialog";
-import styles from "@/components/workspace/directory.module.css";
+import styles from "@/components/workspace/directory.module.scss";
 
 /** "Jul 1, 2026" — the date idiom the rest of the app uses for absolute dates. */
 function formatJoined(iso: string | undefined): string {

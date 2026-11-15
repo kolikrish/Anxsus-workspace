@@ -39,8 +39,8 @@ import {
 } from "@/lib/agent/loops";
 import { showToast } from "@/lib/toast";
 import type { SyncStore } from "@/lib/data/store";
-import shellStyles from "@/components/shell/shell.module.css";
-import styles from "./loops.module.css";
+import shellStyles from "@/components/shell/shell.module.scss";
+import styles from "./loops.module.scss";
 
 const PRIORITY_LABELS = ["No priority", "Urgent", "High", "Medium", "Low"];
 

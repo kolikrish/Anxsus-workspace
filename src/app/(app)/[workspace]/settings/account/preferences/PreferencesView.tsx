@@ -26,7 +26,7 @@ import {
   type ThemeName,
   type ThemeSetting,
 } from "@/components/settings/theme";
-import styles from "@/components/settings/settings.module.css";
+import styles from "@/components/settings/settings.module.scss";
 
 /**
  * Preferences (CAPTURED, exact — capture-preferences.md §6, MASTER_PROMPT

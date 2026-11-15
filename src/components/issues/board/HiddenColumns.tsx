@@ -19,7 +19,7 @@ import { useDroppable } from "@dnd-kit/core";
 import { StatusIcon } from "@/components/icons/StatusIcon";
 import type { WorkflowStateData } from "@/lib/data/types";
 import type { BoardDndData } from "./Board";
-import styles from "./board.module.css";
+import styles from "./board.module.scss";
 
 export interface HiddenColumnItem {
   state: WorkflowStateData;

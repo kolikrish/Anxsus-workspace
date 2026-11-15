@@ -49,7 +49,7 @@ import type {
   UUID,
   WorkflowStateData,
 } from "@/lib/data/types";
-import styles from "./createissue.module.css";
+import styles from "./createissue.module.scss";
 
 /* ================================================================
  * Module-level open event (any caller: sidebar pencil, board column +…)

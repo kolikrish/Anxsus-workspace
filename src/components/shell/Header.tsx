@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { useSidebarDrawer } from "./sidebarDrawer";
-import styles from "./shell.module.css";
+import styles from "./shell.module.scss";
 
 /**
  * Content header (CAPTURED): 57px title band — hairline divider under it —

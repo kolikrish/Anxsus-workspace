@@ -17,7 +17,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Header } from "@/components/shell/Header";
 import { showToast } from "@/lib/toast";
 import { ReviewDiffMark } from "./glyphs";
-import styles from "./directory.module.css";
+import styles from "./directory.module.scss";
 
 const DISMISS_KEY = "linearReviewsBannerDismissed";
 

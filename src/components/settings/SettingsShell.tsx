@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import { AgentToolbar } from "@/components/shell/AgentToolbar";
 import { useSidebarDrawer } from "@/components/shell/sidebarDrawer";
 import { SettingsSidebar } from "./SettingsSidebar";
-import shell from "@/components/shell/shell.module.css";
-import styles from "./settings.module.css";
+import shell from "@/components/shell/shell.module.scss";
+import styles from "./settings.module.scss";
 
 /**
  * Settings chrome (CAPTURED — capture-preferences.md §1): settings mode

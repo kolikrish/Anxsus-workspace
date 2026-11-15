@@ -44,7 +44,7 @@ import {
   type InboxFilter,
 } from "./InboxControls";
 import { WelcomeDocument, WorkspaceMark } from "./WelcomeDocument";
-import styles from "./inbox.module.css";
+import styles from "./inbox.module.scss";
 
 /* ================================================================
  * Constants + pure helpers

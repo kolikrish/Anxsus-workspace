@@ -25,7 +25,7 @@ import { CURRENT_USER_ID } from "@/lib/issues/viewPrefs";
 import { showToast } from "@/lib/toast";
 import { workspaceDisplay } from "@/lib/workspace/active";
 import { isTeamMember, setTeamMembership } from "@/lib/workspace/teams";
-import styles from "./jointeam.module.css";
+import styles from "./jointeam.module.scss";
 
 /** 16px rounded workspace tile — the avatar idiom of the sidebar top row. */
 function WorkspaceTile({ slug, name }: { slug: string; name?: string }): JSX.Element {
